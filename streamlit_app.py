@@ -5,7 +5,7 @@ voc=pd.read_csv('https://docs.google.com/spreadsheets/d/e/2PACX-1vSkifjjijhyCfiL
 l=voc.shape[0]
 i=np.random.choice(range(l))
 word_chi=voc['Hanzi'].values[i]
-indices=np.random.choice(l,size=4,replace=false)
+indices=np.random.choice(l,size=4,replace=False)
 j=np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
 st.write("Traduis:"+word.fr)
