@@ -10,3 +10,5 @@ j=np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
 st.write("Traduis:"+word_fr)
 st.button("refresh")
+for i in range (1):
+  st.button
