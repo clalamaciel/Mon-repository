@@ -8,5 +8,5 @@ word_chi=voc['Hanzi'].values[i]
 indices=np.random.choice(l,size=4,replace=False)
 j=np.random.choice(indices)
 word_fr=voc['Définition'].values[j]
-st.write("Traduis:"+word.fr)
+st.write("Traduis:"+word_fr)
 st.button("refresh")
